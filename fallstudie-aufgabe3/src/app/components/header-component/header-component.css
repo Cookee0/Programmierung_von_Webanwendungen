@@ -1,0 +1,16 @@
+header{
+  height:50px;
+  width:100%;
+  margin-bottom:50px;
+}
+
+header nav{
+  display:flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 20px 100px;
+}
+
+#logo{
+  width:50px;
+}
