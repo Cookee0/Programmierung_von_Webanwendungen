@@ -17,7 +17,6 @@ export const routes: Routes = [
       const m = await import('./pages/footprints-companies-page/footprints-companies-page');
       return m.FootprintsCompaniesPage;
     },
-    providers: [provideHttpClient()]
   },
 
 /*  {
