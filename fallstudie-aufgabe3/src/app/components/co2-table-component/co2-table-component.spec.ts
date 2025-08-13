@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { FootprintsCountriesPage } from './footprints-countries-page';
+import { Co2TableComponent } from './co2-table-component';
 
-describe('FootprintsCountriesPage', () => {
-  let component: FootprintsCountriesPage;
-  let fixture: ComponentFixture<FootprintsCountriesPage>;
+describe('Co2TableComponent', () => {
+  let component: Co2TableComponent;
+  let fixture: ComponentFixture<Co2TableComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [FootprintsCountriesPage]
+      imports: [Co2TableComponent]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(FootprintsCountriesPage);
+    fixture = TestBed.createComponent(Co2TableComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

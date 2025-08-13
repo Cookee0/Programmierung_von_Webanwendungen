@@ -1,5 +1,5 @@
 import {Routes} from '@angular/router';
-import {async} from 'rxjs';
+import {provideHttpClient} from '@angular/common/http';
 
 export const routes: Routes = [
   {
@@ -16,15 +16,8 @@ export const routes: Routes = [
     loadComponent: async () => {
       const m = await import('./pages/footprints-companies-page/footprints-companies-page');
       return m.FootprintsCompaniesPage;
-    }
-  },
-
-  {
-    path: 'countries',
-    loadComponent: async () => {
-      const m = await import('./pages/footprints-countries-page/footprints-countries-page');
-      return m.FootprintsCountriesPage;
-    }
+    },
+    providers: [provideHttpClient()]
   },
 
 /*  {

@@ -1,0 +1,1354 @@
+[
+  {
+    "year": 2023,
+    "parent_entity": "Abu Dhabi National Oil Company",
+    "parent_type": "State-owned Entity",
+    "lei": "5493009O1JMLWDLTIC26",
+    "total_emissions_MtCO2e": "705,4723872",
+    "land": "Vereinigte Arabische Emirate"
+  },
+  {
+    "year": 2023,
+    "parent_entity": "Adani Group",
+    "parent_type": "Investor-owned Company",
+    "lei": "335800OTN96B3M38HC30",
+    "total_emissions_MtCO2e": "106,8879828",
+    "land": "Indien"
+  },
+  {
+    "year": 2023,
+    "parent_entity": "AlamTri Resources",
+    "parent_type": "Investor-owned Company",
+    "lei": "529900P2WAH7XA87OI24",
+    "total_emissions_MtCO2e": "136,3885234",
+    "land": "Indonesien"
+  },
+  {
+    "year": 2023,
+    "parent_entity": "Alliance Resource Partners",
+    "parent_type": "Investor-owned Company",
+    "lei": "529900T4Q5UPWOUFG783",
+    "total_emissions_MtCO2e": "86,12644485",
+    "land": "USA"
+  },
+  {
+    "year": 2023,
+    "parent_entity": "Alpha Metallurgical Resources",
+    "parent_type": "Investor-owned Company",
+    "lei": "549300C9E158C3V6PT51",
+    "total_emissions_MtCO2e": "43,91531009",
+    "land": "USA"
+  },
+  {
+    "year": 2023,
+    "parent_entity": "American Consolidated Natural Resources",
+    "parent_type": "Investor-owned Company",
+    "lei": "549300WM5IIFYHZYTT63",
+    "total_emissions_MtCO2e": "123,1125386",
+    "land": "USA"
+  },
+  {
+    "year": 2023,
+    "parent_entity": "Anglo American",
+    "parent_type": "Investor-owned Company",
+    "lei": "549300S9XF92D1X8ME43",
+    "total_emissions_MtCO2e": "50,07224424",
+    "land": "Vereinigtes Königreich"
+  },
+  {
+    "year": 2023,
+    "parent_entity": "Antero Resources",
+    "parent_type": "Investor-owned Company",
+    "lei": "APVBKPOULHUX7YZLKU17",
+    "total_emissions_MtCO2e": "87,5027612",
+    "land": "USA"
+  },
+  {
+    "year": 2023,
+    "parent_entity": "APA Corporation",
+    "parent_type": "Investor-owned Company",
+    "lei": "549300VCIWLRHYVSHC79",
+    "total_emissions_MtCO2e": "57,93247898",
+    "land": "USA"
+  },
+  {
+    "year": 2023,
+    "parent_entity": "ARC Resources",
+    "parent_type": "Investor-owned Company",
+    "lei": "5493000OCGNQZEVTDT08",
+    "total_emissions_MtCO2e": "54,33251972",
+    "land": "Kanada"
+  },
+  {
+    "year": 2023,
+    "parent_entity": "ArcelorMittal",
+    "parent_type": "Investor-owned Company",
+    "lei": "2EULGUTUI56JI9SAL165",
+    "total_emissions_MtCO2e": "5,933234152",
+    "land": "Luxemburg"
+  },
+  {
+    "year": 2023,
+    "parent_entity": "Arch Resources",
+    "parent_type": "Investor-owned Company",
+    "lei": "W47HVZ7Q6FXL86RELH91",
+    "total_emissions_MtCO2e": "146,293895",
+    "land": "USA"
+  },
+  {
+    "year": 2023,
+    "parent_entity": "Banpu",
+    "parent_type": "Investor-owned Company",
+    "lei": "529900AJ2Z6SUR6TSW75",
+    "total_emissions_MtCO2e": "105,3747103",
+    "land": "Thailand"
+  },
+  {
+    "year": 2023,
+    "parent_entity": "Bapco Energies",
+    "parent_type": "State-owned Entity",
+    "lei": "549300OBH16L6TS6IW50",
+    "total_emissions_MtCO2e": "73,26177017",
+    "land": "Bahrain"
+  },
+  {
+    "year": 2023,
+    "parent_entity": "BASF",
+    "parent_type": "Investor-owned Company",
+    "lei": "529900PM64WH8AF1E917",
+    "total_emissions_MtCO2e": "49,96988488",
+    "land": "Deutschland"
+  },
+  {
+    "year": 2023,
+    "parent_entity": "BHP",
+    "parent_type": "Investor-owned Company",
+    "lei": "WZE1WSENV6JSZFK0JC28",
+    "total_emissions_MtCO2e": "119,670764",
+    "land": "Australien"
+  },
+  {
+    "year": 2023,
+    "parent_entity": "BP",
+    "parent_type": "Investor-owned Company",
+    "lei": "213800LH1BZH3DI6G760",
+    "total_emissions_MtCO2e": "347,0377024",
+    "land": "Vereinigtes Königreich"
+  },
+  {
+    "year": 2023,
+    "parent_entity": "Bumi Resources",
+    "parent_type": "Investor-owned Company",
+    "lei": "529900UUMEQCPSDKFD75",
+    "total_emissions_MtCO2e": "184,3415141",
+    "land": "Indonesien"
+  },
+  {
+    "year": 2023,
+    "parent_entity": "Canadian Natural Resources",
+    "parent_type": "Investor-owned Company",
+    "lei": "549300T15RIMIKZC5Q38",
+    "total_emissions_MtCO2e": "198,9968689",
+    "land": "Kanada"
+  },
+  {
+    "year": 2023,
+    "parent_entity": "Cemex",
+    "parent_type": "Investor-owned Company",
+    "lei": "549300RIG2CXWN6IV731",
+    "total_emissions_MtCO2e": 29,
+    "land": "Mexiko"
+  },
+  {
+    "year": 2023,
+    "parent_entity": "Cenovus Energy",
+    "parent_type": "Investor-owned Company",
+    "lei": "549300F4XPHJ7NOSP309",
+    "total_emissions_MtCO2e": "115,3058335",
+    "land": "Kanada"
+  },
+  {
+    "year": 2023,
+    "parent_entity": "Chesapeake Energy",
+    "parent_type": "Investor-owned Company",
+    "lei": "X2MT1W32SPAZ9WSKLE78",
+    "total_emissions_MtCO2e": "96,83149582",
+    "land": "USA"
+  },
+  {
+    "year": 2023,
+    "parent_entity": "Chevron",
+    "parent_type": "Investor-owned Company",
+    "lei": "",
+    "total_emissions_MtCO2e": "487,2428336",
+    "land": "USA"
+  },
+  {
+    "year": 2023,
+    "parent_entity": "China (Cement)",
+    "parent_type": "Nation State",
+    "lei": "",
+    "total_emissions_MtCO2e": 1050,
+    "land": "China"
+  },
+  {
+    "year": 2023,
+    "parent_entity": "China Huaneng Group",
+    "parent_type": "State-owned Entity",
+    "lei": "300300DOD33ZALKAOC86",
+    "total_emissions_MtCO2e": "291,8946554",
+    "land": "China"
+  },
+  {
+    "year": 2023,
+    "parent_entity": "China National Coal Group",
+    "parent_type": "State-owned Entity",
+    "lei": "300300JUSV303J5TJQ34",
+    "total_emissions_MtCO2e": "719,0923904",
+    "land": "China"
+  },
+  {
+    "year": 2023,
+    "parent_entity": "China Pingmei Shenma Energy and Chemicals Group",
+    "parent_type": "State-owned Entity",
+    "lei": "3003002ATZ466QU1BX02",
+    "total_emissions_MtCO2e": "83,00078581",
+    "land": "China"
+  },
+  {
+    "year": 2023,
+    "parent_entity": "CHN Energy",
+    "parent_type": "State-owned Entity",
+    "lei": "300300VT2BKANW0TKH13",
+    "total_emissions_MtCO2e": "1533,388644",
+    "land": "China"
+  },
+  {
+    "year": 2023,
+    "parent_entity": "CNOOC",
+    "parent_type": "State-owned Entity",
+    "lei": "300300AY5BEBCYDR2F31",
+    "total_emissions_MtCO2e": "274,174562",
+    "land": "China"
+  },
+  {
+    "year": 2023,
+    "parent_entity": "CNPC",
+    "parent_type": "State-owned Entity",
+    "lei": "3003004HNTGCYVG6A618",
+    "total_emissions_MtCO2e": "733,2193286",
+    "land": "China"
+  },
+  {
+    "year": 2023,
+    "parent_entity": "CNX Resources",
+    "parent_type": "Investor-owned Company",
+    "lei": "549300JK3KH8PWM3B226",
+    "total_emissions_MtCO2e": "40,55144389",
+    "land": "USA"
+  },
+  {
+    "year": 2023,
+    "parent_entity": "Coal India",
+    "parent_type": "State-owned Entity",
+    "lei": "335800NLJQZNHM9LBB31",
+    "total_emissions_MtCO2e": "1547,965421",
+    "land": "Indien"
+  },
+  {
+    "year": 2023,
+    "parent_entity": "ConocoPhillips",
+    "parent_type": "Investor-owned Company",
+    "lei": "WPTL2Z3FIYTHSP5V2253",
+    "total_emissions_MtCO2e": "273,2089792",
+    "land": "USA"
+  },
+  {
+    "year": 2023,
+    "parent_entity": "CONSOL Energy",
+    "parent_type": "Investor-owned Company",
+    "lei": "549300YJCTPJBTK7IJ81",
+    "total_emissions_MtCO2e": "64,87556676",
+    "land": "USA"
+  },
+  {
+    "year": 2023,
+    "parent_entity": "Continental Resources",
+    "parent_type": "Investor-owned Company",
+    "lei": "XXRTID9RYWOZ0UPIVR53",
+    "total_emissions_MtCO2e": "66,99648075",
+    "land": "USA"
+  },
+  {
+    "year": 2023,
+    "parent_entity": "Coterra Energy",
+    "parent_type": "Investor-owned Company",
+    "lei": "FCNMH6O7VWU7LHXMK351",
+    "total_emissions_MtCO2e": "103,8872267",
+    "land": "USA"
+  },
+  {
+    "year": 2023,
+    "parent_entity": "CRH",
+    "parent_type": "Investor-owned Company",
+    "lei": "549300MIDJNNTH068E74",
+    "total_emissions_MtCO2e": 21,
+    "land": "Irland"
+  },
+  {
+    "year": 2023,
+    "parent_entity": "Devon Energy",
+    "parent_type": "Investor-owned Company",
+    "lei": "54930042348RKR3ZPN35",
+    "total_emissions_MtCO2e": "98,19865747",
+    "land": "USA"
+  },
+  {
+    "year": 2023,
+    "parent_entity": "DTEK",
+    "parent_type": "Investor-owned Company",
+    "lei": "9845009A70B44Q680820",
+    "total_emissions_MtCO2e": "50,05182235",
+    "land": "Ukraine"
+  },
+  {
+    "year": 2023,
+    "parent_entity": "Ecopetrol",
+    "parent_type": "State-owned Entity",
+    "lei": "254900IDGKCJICKBPA66",
+    "total_emissions_MtCO2e": "108,2901007",
+    "land": "Kolumbien"
+  },
+  {
+    "year": 2023,
+    "parent_entity": "Egyptian General Petroleum",
+    "parent_type": "State-owned Entity",
+    "lei": "",
+    "total_emissions_MtCO2e": "124,6022634",
+    "land": "Ägypten"
+  },
+  {
+    "year": 2023,
+    "parent_entity": "Elgaugol",
+    "parent_type": "Investor-owned Company",
+    "lei": "",
+    "total_emissions_MtCO2e": "65,23027457",
+    "land": "Russland"
+  },
+  {
+    "year": 2023,
+    "parent_entity": "ELSI",
+    "parent_type": "Investor-owned Company",
+    "lei": "",
+    "total_emissions_MtCO2e": "64,39238608",
+    "land": "Russland"
+  },
+  {
+    "year": 2023,
+    "parent_entity": "En+ Group",
+    "parent_type": "Investor-owned Company",
+    "lei": "213800LUFXVT8CKW5113",
+    "total_emissions_MtCO2e": "39,89832761",
+    "land": "Russland"
+  },
+  {
+    "year": 2023,
+    "parent_entity": "Eni",
+    "parent_type": "Investor-owned Company",
+    "lei": "BUCRF72VH5RBN7X3VL35",
+    "total_emissions_MtCO2e": "257,1210544",
+    "land": "Italien"
+  },
+  {
+    "year": 2023,
+    "parent_entity": "EOG Resources",
+    "parent_type": "Investor-owned Company",
+    "lei": "XWTZDRYZPBUHIQBKDB46",
+    "total_emissions_MtCO2e": "147,3506732",
+    "land": "USA"
+  },
+  {
+    "year": 2023,
+    "parent_entity": "EQT Corporation",
+    "parent_type": "Investor-owned Company",
+    "lei": "4NT01YGM4X7ZX86ISY52",
+    "total_emissions_MtCO2e": "146,2667885",
+    "land": "USA"
+  },
+  {
+    "year": 2023,
+    "parent_entity": "Equinor",
+    "parent_type": "State-owned Entity",
+    "lei": "OW6OFBNCKXC4US5C7523",
+    "total_emissions_MtCO2e": "297,4923777",
+    "land": "Norwegen"
+  },
+  {
+    "year": 2023,
+    "parent_entity": "Eurasian Resources Group",
+    "parent_type": "Investor-owned Company",
+    "lei": "2221008462KYO6NPKI38",
+    "total_emissions_MtCO2e": "79,68712181",
+    "land": "Luxemburg"
+  },
+  {
+    "year": 2023,
+    "parent_entity": "EVRAZ",
+    "parent_type": "Investor-owned Company",
+    "lei": "5493005B7DAN39RXLK23",
+    "total_emissions_MtCO2e": "56,10436548",
+    "land": "Russland"
+  },
+  {
+    "year": 2023,
+    "parent_entity": "Exxaro Resources Ltd",
+    "parent_type": "Investor-owned Company",
+    "lei": "378900BC3D9BFF4E4A37",
+    "total_emissions_MtCO2e": "103,5560079",
+    "land": "Südafrika"
+  },
+  {
+    "year": 2023,
+    "parent_entity": "ExxonMobil",
+    "parent_type": "Investor-owned Company",
+    "lei": "J3WHBG0MTS7O8ZVMDC91",
+    "total_emissions_MtCO2e": "562,2245922",
+    "land": "USA"
+  },
+  {
+    "year": 2023,
+    "parent_entity": "Gazprom",
+    "parent_type": "State-owned Entity",
+    "lei": "213800FD9J2IHTA7YX78",
+    "total_emissions_MtCO2e": "1135,729907",
+    "land": "Russland"
+  },
+  {
+    "year": 2023,
+    "parent_entity": "Glencore",
+    "parent_type": "Investor-owned Company",
+    "lei": "2138002658CPO9NBH955",
+    "total_emissions_MtCO2e": "313,199766",
+    "land": "Schweiz"
+  },
+  {
+    "year": 2023,
+    "parent_entity": "Guizhou Panjiang Coal Power Group",
+    "parent_type": "State-owned Entity",
+    "lei": "",
+    "total_emissions_MtCO2e": "44,32931054",
+    "land": "China"
+  },
+  {
+    "year": 2023,
+    "parent_entity": "Heidelberg Materials",
+    "parent_type": "Investor-owned Company",
+    "lei": "LZ2C6E0W5W7LQMX5ZI37",
+    "total_emissions_MtCO2e": "57,1",
+    "land": "Deutschland"
+  },
+  {
+    "year": 2023,
+    "parent_entity": "Heilongjiang Longmay Mining Holding Group",
+    "parent_type": "State-owned Entity",
+    "lei": "300300TV6E1NAOP3X538",
+    "total_emissions_MtCO2e": "116,3524529",
+    "land": "China"
+  },
+  {
+    "year": 2023,
+    "parent_entity": "Henan Energy and Chemical Industry Group",
+    "parent_type": "State-owned Entity",
+    "lei": "3003009UV6BW6REZBB65",
+    "total_emissions_MtCO2e": "215,2447823",
+    "land": "China"
+  },
+  {
+    "year": 2023,
+    "parent_entity": "Hess Corporation",
+    "parent_type": "Investor-owned Company",
+    "lei": "UASVRYNXNK17ULIGK870",
+    "total_emissions_MtCO2e": "58,73674548",
+    "land": "USA"
+  },
+  {
+    "year": 2023,
+    "parent_entity": "Holcim Group",
+    "parent_type": "Investor-owned Company",
+    "lei": "529900EHPFPYHV6IQO98",
+    "total_emissions_MtCO2e": "69,23076923",
+    "land": "Schweiz"
+  },
+  {
+    "year": 2023,
+    "parent_entity": "Huadian Coal Industry Group",
+    "parent_type": "State-owned Entity",
+    "lei": "30030070CWFRE3F8RI66",
+    "total_emissions_MtCO2e": "170,3187862",
+    "land": "China"
+  },
+  {
+    "year": 2023,
+    "parent_entity": "Huaibei Mining Group",
+    "parent_type": "State-owned Entity",
+    "lei": "300300LXEXE781IOMP10",
+    "total_emissions_MtCO2e": "59,37894055",
+    "land": "China"
+  },
+  {
+    "year": 2023,
+    "parent_entity": "Huaihe Energy Holding Group",
+    "parent_type": "State-owned Entity",
+    "lei": "300300A4VB500ME6XS02",
+    "total_emissions_MtCO2e": "204,731668",
+    "land": "China"
+  },
+  {
+    "year": 2023,
+    "parent_entity": "Huating Coal Industry Group",
+    "parent_type": "State-owned Entity",
+    "lei": "",
+    "total_emissions_MtCO2e": "59,4600224",
+    "land": "China"
+  },
+  {
+    "year": 2023,
+    "parent_entity": "Huayang New Material Technology Group",
+    "parent_type": "State-owned Entity",
+    "lei": "3003003VAK50HK7DRI73",
+    "total_emissions_MtCO2e": "124,0822558",
+    "land": "China"
+  },
+  {
+    "year": 2023,
+    "parent_entity": "Inner Mongolia Dian Tou Energy",
+    "parent_type": "State-owned Entity",
+    "lei": "",
+    "total_emissions_MtCO2e": "125,7535635",
+    "land": "China"
+  },
+  {
+    "year": 2023,
+    "parent_entity": "Inner Mongolia Huineng Coal and Electricity Group",
+    "parent_type": "Investor-owned Company",
+    "lei": "",
+    "total_emissions_MtCO2e": "135,7069513",
+    "land": "China"
+  },
+  {
+    "year": 2023,
+    "parent_entity": "Inner Mongolia Mengtai Group",
+    "parent_type": "Investor-owned Company",
+    "lei": "",
+    "total_emissions_MtCO2e": "40,54092436",
+    "land": "China"
+  },
+  {
+    "year": 2023,
+    "parent_entity": "Inner Mongolia Yidong Resources Group",
+    "parent_type": "Investor-owned Company",
+    "lei": "3003002MMID2MEUSH580",
+    "total_emissions_MtCO2e": "53,87565967",
+    "land": "China"
+  },
+  {
+    "year": 2023,
+    "parent_entity": "Inner Mongolia Yitai Group",
+    "parent_type": "Investor-owned Company",
+    "lei": "300300FS6HSAYDG5QG93",
+    "total_emissions_MtCO2e": "140,5924016",
+    "land": "China"
+  },
+  {
+    "year": 2023,
+    "parent_entity": "INPEX",
+    "parent_type": "Investor-owned Company",
+    "lei": "353800VHYYADPR6MXQ47",
+    "total_emissions_MtCO2e": "90,418937",
+    "land": "Japan"
+  },
+  {
+    "year": 2023,
+    "parent_entity": "Iraq National Oil Company",
+    "parent_type": "State-owned Entity",
+    "lei": "",
+    "total_emissions_MtCO2e": "539,6786564",
+    "land": "Irak"
+  },
+  {
+    "year": 2023,
+    "parent_entity": "Jinneng Group",
+    "parent_type": "State-owned Entity",
+    "lei": "300300YPAU43DKNPKK41",
+    "total_emissions_MtCO2e": "1228,088426",
+    "land": "China"
+  },
+  {
+    "year": 2023,
+    "parent_entity": "Jizhong Energy Resources",
+    "parent_type": "State-owned Entity",
+    "lei": "3003006UKWPQDSCT9115",
+    "total_emissions_MtCO2e": "156,9706526",
+    "land": "China"
+  },
+  {
+    "year": 2023,
+    "parent_entity": "JSW",
+    "parent_type": "State-owned Entity",
+    "lei": "259400D4E0H5BGXNIK97",
+    "total_emissions_MtCO2e": "39,40567561",
+    "land": "Polen"
+  },
+  {
+    "year": 2023,
+    "parent_entity": "Kailuan Group",
+    "parent_type": "State-owned Entity",
+    "lei": "300300S6ZAI1O3C2GT79",
+    "total_emissions_MtCO2e": "73,00069113",
+    "land": "China"
+  },
+  {
+    "year": 2023,
+    "parent_entity": "Kazakhmys Holding Group",
+    "parent_type": "Investor-owned Company",
+    "lei": "875500G2X0JXK9IGI989",
+    "total_emissions_MtCO2e": "20,24747714",
+    "land": "Kasachstan"
+  },
+  {
+    "year": 2023,
+    "parent_entity": "Kiewit Mining Group",
+    "parent_type": "Investor-owned Company",
+    "lei": "",
+    "total_emissions_MtCO2e": "22,03503487",
+    "land": "USA"
+  },
+  {
+    "year": 2023,
+    "parent_entity": "Kuwait Petroleum Corp.",
+    "parent_type": "State-owned Entity",
+    "lei": "",
+    "total_emissions_MtCO2e": "416,8619369",
+    "land": "Kuwait"
+  },
+  {
+    "year": 2023,
+    "parent_entity": "Kuzbasskaya Toplivnaya",
+    "parent_type": "Investor-owned Company",
+    "lei": "",
+    "total_emissions_MtCO2e": "26,4143856",
+    "land": "Russland"
+  },
+  {
+    "year": 2023,
+    "parent_entity": "Kuzbassrazrezugol",
+    "parent_type": "Investor-owned Company",
+    "lei": "",
+    "total_emissions_MtCO2e": "100,708323",
+    "land": "Russland"
+  },
+  {
+    "year": 2023,
+    "parent_entity": "Liaoning Energy Industry Holding Group",
+    "parent_type": "State-owned Entity",
+    "lei": "",
+    "total_emissions_MtCO2e": "197,7981342",
+    "land": "China"
+  },
+  {
+    "year": 2023,
+    "parent_entity": "Libya National Oil Corp.",
+    "parent_type": "State-owned Entity",
+    "lei": "",
+    "total_emissions_MtCO2e": "147,0027677",
+    "land": "Libyen"
+  },
+  {
+    "year": 2023,
+    "parent_entity": "Luan Chemical Group",
+    "parent_type": "State-owned Entity",
+    "lei": "",
+    "total_emissions_MtCO2e": "291,5444779",
+    "land": "China"
+  },
+  {
+    "year": 2023,
+    "parent_entity": "Lukoil",
+    "parent_type": "Investor-owned Company",
+    "lei": "549300LCJ1UJXHYBWI24",
+    "total_emissions_MtCO2e": "331,9295535",
+    "land": "Russland"
+  },
+  {
+    "year": 2023,
+    "parent_entity": "LW Bogdanka",
+    "parent_type": "State-owned Entity",
+    "lei": "259400MHSST6C1A8M066",
+    "total_emissions_MtCO2e": "19,27038709",
+    "land": "Polen"
+  },
+  {
+    "year": 2023,
+    "parent_entity": "Marathon Oil",
+    "parent_type": "Investor-owned Company",
+    "lei": "1FRVQX2CRLGC1XLP5727",
+    "total_emissions_MtCO2e": "60,6008784",
+    "land": "USA"
+  },
+  {
+    "year": 2023,
+    "parent_entity": "Mechel",
+    "parent_type": "Investor-owned Company",
+    "lei": "253400C9GSPBSKERRP65",
+    "total_emissions_MtCO2e": "29,15364455",
+    "land": "Russland"
+  },
+  {
+    "year": 2023,
+    "parent_entity": "Metinvest",
+    "parent_type": "Investor-owned Company",
+    "lei": "635400TMCKVEU87EJ582",
+    "total_emissions_MtCO2e": "16,18289615",
+    "land": "Ukraine"
+  },
+  {
+    "year": 2023,
+    "parent_entity": "Mitsubishi Corporation",
+    "parent_type": "Investor-owned Company",
+    "lei": "KVIPTY4PULAPGC1VVD26",
+    "total_emissions_MtCO2e": "111,4119023",
+    "land": "Japan"
+  },
+  {
+    "year": 2023,
+    "parent_entity": "Mubadala",
+    "parent_type": "State-owned Entity",
+    "lei": "",
+    "total_emissions_MtCO2e": "59,83822251",
+    "land": "Vereinigte Arabische Emirate"
+  },
+  {
+    "year": 2023,
+    "parent_entity": "Murphy Oil",
+    "parent_type": "Investor-owned Company",
+    "lei": "QBKYQD0ODE7DC7PDIN91",
+    "total_emissions_MtCO2e": "29,13276605",
+    "land": "USA"
+  },
+  {
+    "year": 2023,
+    "parent_entity": "NACCO Industries",
+    "parent_type": "Investor-owned Company",
+    "lei": "549300LDIX1UB5J1DN27",
+    "total_emissions_MtCO2e": "31,475072",
+    "land": "USA"
+  },
+  {
+    "year": 2023,
+    "parent_entity": "Naftogaz",
+    "parent_type": "State-owned Entity",
+    "lei": "8945000AGPSZJTCNF244",
+    "total_emissions_MtCO2e": "33,97362782",
+    "land": "Ukraine"
+  },
+  {
+    "year": 2023,
+    "parent_entity": "National Iranian Oil Company",
+    "parent_type": "State-owned Entity",
+    "lei": "",
+    "total_emissions_MtCO2e": "1262,417137",
+    "land": "Iran"
+  },
+  {
+    "year": 2023,
+    "parent_entity": "Navajo Transitional Energy Company",
+    "parent_type": "Investor-owned Company",
+    "lei": "549300E8YQ20AR6OLH28",
+    "total_emissions_MtCO2e": "88,51468951",
+    "land": "USA"
+  },
+  {
+    "year": 2023,
+    "parent_entity": "Nigerian National Petroleum Corp.",
+    "parent_type": "State-owned Entity",
+    "lei": "",
+    "total_emissions_MtCO2e": "281,7877437",
+    "land": "Nigeria"
+  },
+  {
+    "year": 2023,
+    "parent_entity": "North Korea",
+    "parent_type": "Nation State",
+    "lei": "",
+    "total_emissions_MtCO2e": "60,83486023",
+    "land": "Nordkorea"
+  },
+  {
+    "year": 2023,
+    "parent_entity": "Novatek",
+    "parent_type": "Investor-owned Company",
+    "lei": "2138008R6GCRVBDFA581",
+    "total_emissions_MtCO2e": "248,2371142",
+    "land": "Russland"
+  },
+  {
+    "year": 2023,
+    "parent_entity": "Novaya Gornaya",
+    "parent_type": "Investor-owned Company",
+    "lei": "",
+    "total_emissions_MtCO2e": "23,58624908",
+    "land": "Russland"
+  },
+  {
+    "year": 2023,
+    "parent_entity": "Obsidian Energy",
+    "parent_type": "Investor-owned Company",
+    "lei": "549300DITPHH8W8CK636",
+    "total_emissions_MtCO2e": "4,868683147",
+    "land": "Kanada"
+  },
+  {
+    "year": 2023,
+    "parent_entity": "Occidental Petroleum",
+    "parent_type": "Investor-owned Company",
+    "lei": "IM7X0T3ECJW4C1T7ON55",
+    "total_emissions_MtCO2e": "182,0365021",
+    "land": "USA"
+  },
+  {
+    "year": 2023,
+    "parent_entity": "OKD",
+    "parent_type": "State-owned Entity",
+    "lei": "315700KQU4IWMFNLRZ91",
+    "total_emissions_MtCO2e": "5,62264102",
+    "land": "Tschechien"
+  },
+  {
+    "year": 2023,
+    "parent_entity": "OMV",
+    "parent_type": "Investor-owned Company",
+    "lei": "549300V62YJ9HTLRI486",
+    "total_emissions_MtCO2e": "54,50702823",
+    "land": "Österreich"
+  },
+  {
+    "year": 2023,
+    "parent_entity": "ONGC",
+    "parent_type": "State-owned Entity",
+    "lei": "335800FPDZ9MRSNO7N41",
+    "total_emissions_MtCO2e": "117,7611632",
+    "land": "Indien"
+  },
+  {
+    "year": 2023,
+    "parent_entity": "Orlen",
+    "parent_type": "Investor-owned Company",
+    "lei": "259400VVMM70CQREJT74",
+    "total_emissions_MtCO2e": "28,74530584",
+    "land": "Polen"
+  },
+  {
+    "year": 2023,
+    "parent_entity": "Ovintiv",
+    "parent_type": "Investor-owned Company",
+    "lei": "2549003MEX7YMKLGI239",
+    "total_emissions_MtCO2e": "86,1871459",
+    "land": "USA"
+  },
+  {
+    "year": 2023,
+    "parent_entity": "Peabody Energy",
+    "parent_type": "Investor-owned Company",
+    "lei": "EJCO258LNNVSKAR2JX59",
+    "total_emissions_MtCO2e": "278,1251182",
+    "land": "USA"
+  },
+  {
+    "year": 2023,
+    "parent_entity": "Pemex",
+    "parent_type": "State-owned Entity",
+    "lei": "549300CAZKPF4HKMPX17",
+    "total_emissions_MtCO2e": "363,5312432",
+    "land": "Mexiko"
+  },
+  {
+    "year": 2023,
+    "parent_entity": "Pertamina",
+    "parent_type": "State-owned Entity",
+    "lei": "254900NDAKGNZ2IBBL45",
+    "total_emissions_MtCO2e": "156,0204026",
+    "land": "Indonesien"
+  },
+  {
+    "year": 2023,
+    "parent_entity": "Petoro",
+    "parent_type": "State-owned Entity",
+    "lei": "",
+    "total_emissions_MtCO2e": "147,35983",
+    "land": "Norwegen"
+  },
+  {
+    "year": 2023,
+    "parent_entity": "Petrobras",
+    "parent_type": "State-owned Entity",
+    "lei": "5493000J801JZRCMFE49",
+    "total_emissions_MtCO2e": "412,1942675",
+    "land": "Brasilien"
+  },
+  {
+    "year": 2023,
+    "parent_entity": "PetroEcuador",
+    "parent_type": "State-owned Entity",
+    "lei": "",
+    "total_emissions_MtCO2e": "69,93202907",
+    "land": "Ecuador"
+  },
+  {
+    "year": 2023,
+    "parent_entity": "Petroleos de Venezuela",
+    "parent_type": "State-owned Entity",
+    "lei": "549300YWR8TN1OFD4P06",
+    "total_emissions_MtCO2e": "172,2129107",
+    "land": "Venezuela"
+  },
+  {
+    "year": 2023,
+    "parent_entity": "Petroleum Development Oman",
+    "parent_type": "State-owned Entity",
+    "lei": "213800TVCPIPIJR4K761",
+    "total_emissions_MtCO2e": "164,6348231",
+    "land": "Oman"
+  },
+  {
+    "year": 2023,
+    "parent_entity": "Petronas",
+    "parent_type": "State-owned Entity",
+    "lei": "5493003RZQYJM7QGNE15",
+    "total_emissions_MtCO2e": "258,1591593",
+    "land": "Malaysia"
+  },
+  {
+    "year": 2023,
+    "parent_entity": "PGE Group",
+    "parent_type": "State-owned Entity",
+    "lei": "259400MP9VXR0E69MJ89",
+    "total_emissions_MtCO2e": "51,41227639",
+    "land": "Polen"
+  },
+  {
+    "year": 2023,
+    "parent_entity": "Pioneer Natural Resources",
+    "parent_type": "Investor-owned Company",
+    "lei": "FY8JBF7CCL2VE4F1B628",
+    "total_emissions_MtCO2e": "106,2943013",
+    "land": "USA"
+  },
+  {
+    "year": 2023,
+    "parent_entity": "Polska Grupa Gornicza (PGG)",
+    "parent_type": "State-owned Entity",
+    "lei": "",
+    "total_emissions_MtCO2e": "58,35398906",
+    "land": "Polen"
+  },
+  {
+    "year": 2023,
+    "parent_entity": "Poludniowy Koncern Weglowy",
+    "parent_type": "State-owned Entity",
+    "lei": "259400S0GMGP67N7DB03",
+    "total_emissions_MtCO2e": "14,5884361",
+    "land": "Polen"
+  },
+  {
+    "year": 2023,
+    "parent_entity": "PTTEP",
+    "parent_type": "State-owned Entity",
+    "lei": "549300QOGMPTKB6W7G56",
+    "total_emissions_MtCO2e": "102,1380627",
+    "land": "Thailand"
+  },
+  {
+    "year": 2023,
+    "parent_entity": "QatarEnergy",
+    "parent_type": "State-owned Entity",
+    "lei": "254900QTESJKJ3P87J26",
+    "total_emissions_MtCO2e": "386,6720762",
+    "land": "Katar"
+  },
+  {
+    "year": 2023,
+    "parent_entity": "Repsol",
+    "parent_type": "Investor-owned Company",
+    "lei": "BSYCX13Y0NOTV14V9N85",
+    "total_emissions_MtCO2e": "92,73275836",
+    "land": "Spanien"
+  },
+  {
+    "year": 2023,
+    "parent_entity": "Rosneft",
+    "parent_type": "State-owned Entity",
+    "lei": "253400JT3MQWNDKMJE44",
+    "total_emissions_MtCO2e": "804,5199854",
+    "land": "Russland"
+  },
+  {
+    "year": 2023,
+    "parent_entity": "Russian Coal",
+    "parent_type": "Investor-owned Company",
+    "lei": "2534004L951WTUL81746",
+    "total_emissions_MtCO2e": "26,35609767",
+    "land": "Russland"
+  },
+  {
+    "year": 2023,
+    "parent_entity": "RWE",
+    "parent_type": "Investor-owned Company",
+    "lei": "529900GB7KCA94ACC940",
+    "total_emissions_MtCO2e": "64,54992763",
+    "land": "Deutschland"
+  },
+  {
+    "year": 2023,
+    "parent_entity": "Samruk-Kazyna",
+    "parent_type": "State-owned Entity",
+    "lei": "213800N83GBAZJ4ER974",
+    "total_emissions_MtCO2e": "212,363286",
+    "land": "Kasachstan"
+  },
+  {
+    "year": 2023,
+    "parent_entity": "Santos",
+    "parent_type": "Investor-owned Company",
+    "lei": "5299000RK70B5O2M7077",
+    "total_emissions_MtCO2e": "36,17516644",
+    "land": "Australien"
+  },
+  {
+    "year": 2023,
+    "parent_entity": "Sasol",
+    "parent_type": "Investor-owned Company",
+    "lei": "378900F4544561A97588",
+    "total_emissions_MtCO2e": "97,39844206",
+    "land": "Südafrika"
+  },
+  {
+    "year": 2023,
+    "parent_entity": "Saudi Aramco",
+    "parent_type": "State-owned Entity",
+    "lei": "5586006WD91QHB7J4X50",
+    "total_emissions_MtCO2e": "1838,735585",
+    "land": "Saudi-Arabien"
+  },
+  {
+    "year": 2023,
+    "parent_entity": "SDS Coal",
+    "parent_type": "Investor-owned Company",
+    "lei": "253400SA758842891283",
+    "total_emissions_MtCO2e": "31,07599864",
+    "land": "Russland"
+  },
+  {
+    "year": 2023,
+    "parent_entity": "Seriti Resources",
+    "parent_type": "Investor-owned Company",
+    "lei": "",
+    "total_emissions_MtCO2e": "112,5478396",
+    "land": "Südafrika"
+  },
+  {
+    "year": 2023,
+    "parent_entity": "Sev.en Group",
+    "parent_type": "Investor-owned Company",
+    "lei": "315700Z003HV2SK6LR05",
+    "total_emissions_MtCO2e": "16,78967724",
+    "land": "Tschechien"
+  },
+  {
+    "year": 2023,
+    "parent_entity": "Severoceske doly",
+    "parent_type": "State-owned Entity",
+    "lei": "3157009U4LRDLE8XC737",
+    "total_emissions_MtCO2e": "21,03765173",
+    "land": "Tschechien"
+  },
+  {
+    "year": 2023,
+    "parent_entity": "Severstal",
+    "parent_type": "Investor-owned Company",
+    "lei": "213800OKDPTV6K4ONO53",
+    "total_emissions_MtCO2e": "21,3305701",
+    "land": "Russland"
+  },
+  {
+    "year": 2023,
+    "parent_entity": "Shaanxi Coal and Chemical Industry Group",
+    "parent_type": "State-owned Entity",
+    "lei": "30030018TILQISBWTV50",
+    "total_emissions_MtCO2e": "680,8332991",
+    "land": "China"
+  },
+  {
+    "year": 2023,
+    "parent_entity": "Shandong Energy",
+    "parent_type": "State-owned Entity",
+    "lei": "300300311P89H0ZL2972",
+    "total_emissions_MtCO2e": "728,3312198",
+    "land": "China"
+  },
+  {
+    "year": 2023,
+    "parent_entity": "Shanxi Coking Coal Group",
+    "parent_type": "State-owned Entity",
+    "lei": "3003003YG5TJH81OM229",
+    "total_emissions_MtCO2e": "548,4088326",
+    "land": "China"
+  },
+  {
+    "year": 2023,
+    "parent_entity": "Shell",
+    "parent_type": "Investor-owned Company",
+    "lei": "21380068P1DRHMJ8KU70",
+    "total_emissions_MtCO2e": "417,5128448",
+    "land": "Vereinigtes Königreich"
+  },
+  {
+    "year": 2023,
+    "parent_entity": "Singareni Collieries",
+    "parent_type": "State-owned Entity",
+    "lei": "335800FAE3D6OMZKLO14",
+    "total_emissions_MtCO2e": "140,100229",
+    "land": "Indien"
+  },
+  {
+    "year": 2023,
+    "parent_entity": "Sinopec",
+    "parent_type": "State-owned Entity",
+    "lei": "2138009UNXTD8EYS5M35",
+    "total_emissions_MtCO2e": "249,4964541",
+    "land": "China"
+  },
+  {
+    "year": 2023,
+    "parent_entity": "SM Energy",
+    "parent_type": "Investor-owned Company",
+    "lei": "84BUTVXV5ODI6BXNMH43",
+    "total_emissions_MtCO2e": "23,00974723",
+    "land": "USA"
+  },
+  {
+    "year": 2023,
+    "parent_entity": "Sokolovska uhelna",
+    "parent_type": "Investor-owned Company",
+    "lei": 31570000000000000000,
+    "total_emissions_MtCO2e": "4,501085203",
+    "land": "Tschechien"
+  },
+  {
+    "year": 2023,
+    "parent_entity": "Sonangol",
+    "parent_type": "State-owned Entity",
+    "lei": "",
+    "total_emissions_MtCO2e": "174,2693435",
+    "land": "Angola"
+  },
+  {
+    "year": 2023,
+    "parent_entity": "Sonatrach",
+    "parent_type": "State-owned Entity",
+    "lei": "",
+    "total_emissions_MtCO2e": "575,8620468",
+    "land": "Algerien"
+  },
+  {
+    "year": 2023,
+    "parent_entity": "Southwestern Energy",
+    "parent_type": "Investor-owned Company",
+    "lei": "EFWMP121W54QV9MGOP87",
+    "total_emissions_MtCO2e": "120,153778",
+    "land": "USA"
+  },
+  {
+    "year": 2023,
+    "parent_entity": "State Power Investment Corporation",
+    "parent_type": "State-owned Entity",
+    "lei": "300300PRSKD1SREA6768",
+    "total_emissions_MtCO2e": "218,7858551",
+    "land": "China"
+  },
+  {
+    "year": 2023,
+    "parent_entity": "Stroyservis",
+    "parent_type": "Investor-owned Company",
+    "lei": "",
+    "total_emissions_MtCO2e": "44,46144699",
+    "land": "Russland"
+  },
+  {
+    "year": 2023,
+    "parent_entity": "SUEK",
+    "parent_type": "Investor-owned Company",
+    "lei": "",
+    "total_emissions_MtCO2e": "250,0984254",
+    "land": "Russland"
+  },
+  {
+    "year": 2023,
+    "parent_entity": "Suncor Energy",
+    "parent_type": "Investor-owned Company",
+    "lei": "549300W70ZOQDVLCHY06",
+    "total_emissions_MtCO2e": "108,5395674",
+    "land": "Kanada"
+  },
+  {
+    "year": 2023,
+    "parent_entity": "Surgutneftegas",
+    "parent_type": "Investor-owned Company",
+    "lei": "2138002GZLU65FRAC894",
+    "total_emissions_MtCO2e": "182,9788361",
+    "land": "Russland"
+  },
+  {
+    "year": 2023,
+    "parent_entity": "Syrian Petroleum",
+    "parent_type": "State-owned Entity",
+    "lei": "",
+    "total_emissions_MtCO2e": "13,03227204",
+    "land": "Syrien"
+  },
+  {
+    "year": 2023,
+    "parent_entity": "Taiheiyo Cement",
+    "parent_type": "Investor-owned Company",
+    "lei": "",
+    "total_emissions_MtCO2e": "17,997",
+    "land": "Japan"
+  },
+  {
+    "year": 2023,
+    "parent_entity": "TALTEK",
+    "parent_type": "Investor-owned Company",
+    "lei": "",
+    "total_emissions_MtCO2e": "22,28140396",
+    "land": "Russland"
+  },
+  {
+    "year": 2023,
+    "parent_entity": "Tatneft",
+    "parent_type": "Investor-owned Company",
+    "lei": "253400PAT768SVJMV121",
+    "total_emissions_MtCO2e": "85,53131278",
+    "land": "Russland"
+  },
+  {
+    "year": 2023,
+    "parent_entity": "Teck Resources",
+    "parent_type": "Investor-owned Company",
+    "lei": "T8KI5SQ2JRWHL7XY0E11",
+    "total_emissions_MtCO2e": "70,3088247",
+    "land": "Kanada"
+  },
+  {
+    "year": 2023,
+    "parent_entity": "TotalEnergies",
+    "parent_type": "Investor-owned Company",
+    "lei": "529900S21EQ1BO4ESM68",
+    "total_emissions_MtCO2e": "359,3784974",
+    "land": "Frankreich"
+  },
+  {
+    "year": 2023,
+    "parent_entity": "Tourmaline Oil",
+    "parent_type": "Investor-owned Company",
+    "lei": "549300EWGW5PUCV5A109",
+    "total_emissions_MtCO2e": "87,03362733",
+    "land": "Kanada"
+  },
+  {
+    "year": 2023,
+    "parent_entity": "Tullow Oil",
+    "parent_type": "Investor-owned Company",
+    "lei": "2138003EYHWO75RKS857",
+    "total_emissions_MtCO2e": "9,223356114",
+    "land": "Vereinigtes Königreich"
+  },
+  {
+    "year": 2023,
+    "parent_entity": "TurkmenGaz",
+    "parent_type": "State-owned Entity",
+    "lei": "",
+    "total_emissions_MtCO2e": "197,2701092",
+    "land": "Turkmenistan"
+  },
+  {
+    "year": 2023,
+    "parent_entity": "UltraTech Cement",
+    "parent_type": "Investor-owned Company",
+    "lei": "335800PC9O9B4BQHG814",
+    "total_emissions_MtCO2e": "71,23786",
+    "land": "Indien"
+  },
+  {
+    "year": 2023,
+    "parent_entity": "Vistra",
+    "parent_type": "Investor-owned Company",
+    "lei": "549300KP43CPCUJOOG15",
+    "total_emissions_MtCO2e": "11,60251831",
+    "land": "USA"
+  },
+  {
+    "year": 2023,
+    "parent_entity": "Westmoreland Mining",
+    "parent_type": "Investor-owned Company",
+    "lei": "",
+    "total_emissions_MtCO2e": "15,93495308",
+    "land": "USA"
+  },
+  {
+    "year": 2023,
+    "parent_entity": "Whitehaven Coal",
+    "parent_type": "Investor-owned Company",
+    "lei": "529900WCZ4I6ZO3RRP86",
+    "total_emissions_MtCO2e": "36,82376565",
+    "land": "Australien"
+  },
+  {
+    "year": 2023,
+    "parent_entity": "Wolverine Fuels",
+    "parent_type": "Investor-owned Company",
+    "lei": "549300MICUGME9NZXH40",
+    "total_emissions_MtCO2e": "13,48574675",
+    "land": "USA"
+  },
+  {
+    "year": 2023,
+    "parent_entity": "Woodside Energy",
+    "parent_type": "Investor-owned Company",
+    "lei": "2549005ZC5RXAOO7FH41",
+    "total_emissions_MtCO2e": "76,7934895",
+    "land": "Australien"
+  },
+  {
+    "year": 2023,
+    "parent_entity": "Xinjiang Tianchi Energy",
+    "parent_type": "State-owned Entity",
+    "lei": "",
+    "total_emissions_MtCO2e": "135,7069513",
+    "land": "China"
+  },
+  {
+    "year": 2023,
+    "parent_entity": "Xuzhou Mining Group",
+    "parent_type": "State-owned Entity",
+    "lei": "300300X3SJ28RCMB2N67",
+    "total_emissions_MtCO2e": "54,7649906",
+    "land": "China"
+  },
+  {
+    "year": 2023,
+    "parent_entity": "YPF",
+    "parent_type": "State-owned Entity",
+    "lei": "5493003N7447U18U5U53",
+    "total_emissions_MtCO2e": "72,04830078",
+    "land": "Argentinien"
+  }
+]

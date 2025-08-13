@@ -1,7 +1,16 @@
 /* You can add global styles to this file, and also import other style files */
 
+#root{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
 
 body {
   font-family: Arial, Helvetica, sans-serif;
-  padding: 50px 15%;
+}
+
+main{
+  width: 70ch;
+  margin: 0 30% 0 20%;
 }

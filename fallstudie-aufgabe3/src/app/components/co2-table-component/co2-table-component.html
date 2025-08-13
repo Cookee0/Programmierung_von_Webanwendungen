@@ -1,0 +1,27 @@
+<p>co2-table-component works!</p>
+
+<!--<app-global-buttons-shared [content]="'Say hi'" (click)="sayHi()"/>-->
+
+<table>
+  <thead>
+  <tr>
+    <th>Year</th>
+    <th>Country</th>
+    <th>Company</th>
+    <th>Emissions</th>
+  </tr>
+  </thead>
+
+  <tbody>
+    @for (row of companiesJSON(); track row.parent_entity) {
+      <tr>
+        <td>{{row.year}}</td>
+        <td>{{row.land}}</td>
+        <td>{{row.parent_entity}}</td>
+        <td>{{row.total_emissions}}</td>
+      </tr>
+    }
+  </tbody>
+
+</table>
+
