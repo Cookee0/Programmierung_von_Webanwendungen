@@ -3,7 +3,6 @@
 #root{
   display: flex;
   flex-direction: column;
-  gap: 20px;
 }
 
 body {
@@ -11,6 +10,8 @@ body {
 }
 
 main{
-  width: 70ch;
   margin: 0 30% 0 20%;
 }
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
