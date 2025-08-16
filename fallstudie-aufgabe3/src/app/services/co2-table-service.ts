@@ -2,15 +2,7 @@ import {inject, Injectable} from '@angular/core';
 import {HttpClient} from '@angular/common/http';
 import {toSignal} from '@angular/core/rxjs-interop';
 import {map} from 'rxjs';
-
-export interface Company {
-  year: number;
-  parent_entity: string;
-  parent_type: string;
-  lei: string;
-  total_emissions_MtCO2e: number;
-  country: string;
-}
+import {Company} from '../shared/types/company-type/company-interface';
 
 @Injectable({
   providedIn: 'any'
@@ -29,7 +21,7 @@ export class Co2TableService {
         }));
       })
     ),
-    { initialValue: [] as Company[] }
+    {initialValue: [] as Company[]}
   )
 
 }
@@ -46,4 +38,3 @@ function emissionsToNumber(value: unknown): number {
   return Number.isFinite(number) ? number : NaN;
 
 }
-

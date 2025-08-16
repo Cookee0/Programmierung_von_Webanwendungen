@@ -1,52 +1,34 @@
-<p>co2-table-component works!</p>
+<app-search-form-shared
+  [dataSource]="dataSource"
+  (filterChange)="applyFilter($event)"
+/>
 
-<!--<app-global-buttons-shared [content]="'Say hi'" (click)="sayHi()"/>-->
 
-<mat-form-field>
-  <mat-label>Filter by Country</mat-label>
-  <input
-    matInput
-    placeholder="USA, Deutschland..."
-    [value]="countrySearch()"
-    (input)="countrySearch.set($event.target!.value)"
-  />
-</mat-form-field>
-
-<mat-form-field>
-  <mat-label>Filter by Company</mat-label>
-  <input
-    matInput
-    placeholder="Adani, BASF..."
-    [value]="companySearch()"
-    (input)="companySearch.set($event.target!.value)"
-  />
-</mat-form-field>
-
-<table mat-table [dataSource]="companiesDataSource" matSort>
+<table [dataSource]="dataSource" mat-table matSort>
 
   <ng-container matColumnDef="year">
-    <th mat-header-cell *matHeaderCellDef mat-sort-header sortActionDescription="Nach Jahr sortieren">Year</th>
-    <td mat-cell *matCellDef="let row">{{ row.year }}</td>
+    <th *matHeaderCellDef mat-header-cell mat-sort-header sortActionDescription="Nach Jahr sortieren">Year</th>
+    <td *matCellDef="let row" mat-cell>{{ row.year }}</td>
   </ng-container>
 
   <ng-container matColumnDef="parent_entity">
-    <th mat-header-cell *matHeaderCellDef mat-sort-header>Unternehmen</th>
-    <td mat-cell *matCellDef="let row">{{ row.parent_entity }}</td>
+    <th *matHeaderCellDef mat-header-cell mat-sort-header>Unternehmen</th>
+    <td *matCellDef="let row" mat-cell>{{ row.parent_entity }}</td>
   </ng-container>
 
   <ng-container matColumnDef="country">
-    <th mat-header-cell *matHeaderCellDef mat-sort-header>Land</th>
-    <td mat-cell *matCellDef="let row">{{ row.country }}</td>
+    <th *matHeaderCellDef mat-header-cell mat-sort-header>Land</th>
+    <td *matCellDef="let row" mat-cell>{{ row.country }}</td>
   </ng-container>
 
   <ng-container matColumnDef="total_emissions_MtCO2e">
-    <th mat-header-cell *matHeaderCellDef mat-sort-header>Emissionen in Mt/Jahr</th>
-    <td mat-cell *matCellDef="let row">
-      {{ row.total_emissions_MtCO2e | number:'1.0-10' }}
+    <th *matHeaderCellDef mat-header-cell mat-sort-header>Emissionen in Mt/Jahr</th>
+    <td *matCellDef="let row" mat-cell>
+      {{ row.total_emissions_MtCO2e | number:'1.0-7' }}
     </td>
   </ng-container>
 
-  <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
-  <tr mat-row *matRowDef="let row; columns: displayedColumns"></tr>
+  <tr *matHeaderRowDef="displayedColumns" mat-header-row></tr>
+  <tr *matRowDef="let row; columns: displayedColumns" mat-row></tr>
 
 </table>
