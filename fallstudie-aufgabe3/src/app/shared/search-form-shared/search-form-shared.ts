@@ -3,11 +3,10 @@ import {FormControl, FormsModule, ReactiveFormsModule} from "@angular/forms";
 import {MatFormField, MatInput, MatLabel} from "@angular/material/input";
 import {MatOption, MatSelect, MatSelectChange} from '@angular/material/select';
 import {merge, startWith} from 'rxjs';
-import {FilterPayload} from '../../types/filter-payload-type/filter-payload-interface';
+import {FilterPayload} from '../types/filter-payload-type/filter-payload-interface';
 import {MatPaginator} from '@angular/material/paginator';
-import {Co2TableComponent} from '../../../components/co2-table-component/co2-table-component';
 import {MatTableDataSource} from '@angular/material/table';
-import {Company} from '../../types/company-type/company-interface';
+import {Company} from '../types/company-type/company-interface';
 
 @Component({
   selector: 'app-search-form-shared',

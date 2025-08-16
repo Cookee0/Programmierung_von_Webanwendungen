@@ -1,7 +1,7 @@
 <form id="searchForm">
 
+  <div id="searchFormFilters">
   <mat-form-field>
-
     <mat-label>Filter by Country</mat-label>
 
     <input
@@ -9,9 +9,7 @@
       placeholder="USA, Deutschland..."
       [formControl]="countryCtrl"
     />
-
   </mat-form-field>
-
 
   <mat-form-field>
     <mat-label>Filter by Company</mat-label>
@@ -21,13 +19,13 @@
       placeholder="Adani, BASF..."
       [formControl]="companyCtrl"
     />
-
   </mat-form-field>
 
   <mat-form-field>
     <mat-select
       multiple
       [formControl]="yearsCtrl"
+      [placeholder]="'Filter by Year'"
     >
 
       @for (year of yearsList; track year) {
@@ -36,12 +34,14 @@
 
     </mat-select>
   </mat-form-field>
+  </div>
 
   <mat-paginator
     [length]="dataSource.data.length"
     [pageSizeOptions]="[5, 10, 25, 50, 100]"
     [pageSize]="25"
     aria-label="select-page"
+    id="searchFormPaginator"
   />
 
 </form>

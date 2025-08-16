@@ -1,14 +1,13 @@
 .global-btn{
   margin-left: 25px;
   text-decoration: none;
-  color: #000;
   border: 1px solid #afafaf;
   border-radius: 5px;
   padding: 10px 20px;
 }
 
 .global-btn:hover{
-  background-color: #525252;
+  background-color: var(--color-secondary);
   color: #eeeeee;
   transition: 0.2s;
   cursor: pointer;

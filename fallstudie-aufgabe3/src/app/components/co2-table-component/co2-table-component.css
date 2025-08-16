@@ -1,12 +1,18 @@
-#searchForm{
+#companiesTable{
   width: 100%;
-  display: flex;
-  flex-direction: row;
-  gap: 30px;
-  align-items: center;
+  table-layout: fixed;
+  gap: 20px;
+  border: 1px solid red;
 }
 
-.searchFormInput{
-  display: flex;
-  flex-direction: column;
+#companiesTable tr,th,td{
+  color: var(--text-color);
+}
+
+#companiesTable th{
+  width: 30%;
+}
+
+#companiesTable #yearHeader{
+  width: 10%;
 }

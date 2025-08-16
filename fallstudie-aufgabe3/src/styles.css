@@ -1,4 +1,8 @@
-/* You can add global styles to this file, and also import other style files */
+:root{
+  --text-color: white;
+  --color-primary: #080836FF;
+  --color-secondary: #5353e3;
+}
 
 #root{
   display: flex;
@@ -7,6 +11,8 @@
 
 body {
   font-family: Arial, Helvetica, sans-serif;
+  background: #080836FF;
+  color: var(--text-color);
 }
 
 main{
@@ -15,3 +21,19 @@ main{
 
 html, body { height: 100%; }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+#searchFormPaginator .mat-mdc-select-trigger{
+  padding: 0 10px;
+}
+
+.cdk-overlay-pane{
+  background-color: var(--color-secondary);
+}
+
+.mat-sort-header-content{
+  font-weight: bold;
+}
+
+tbody tr:nth-child(odd){
+  background-color: var(--color-secondary)
+}

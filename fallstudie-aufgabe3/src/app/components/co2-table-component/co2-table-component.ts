@@ -5,7 +5,7 @@ import {MatTableDataSource, MatTableModule} from '@angular/material/table';
 import {MatSort, MatSortHeader} from '@angular/material/sort';
 import {MatPaginator, MatPaginatorModule} from '@angular/material/paginator';
 import {ReactiveFormsModule} from '@angular/forms';
-import {SearchFormShared} from '../../shared/search-form-shared/search-form-shared/search-form-shared';
+import {SearchFormShared} from '../../shared/search-form-shared/search-form-shared';
 import {Company} from '../../shared/types/company-type/company-interface';
 import {FilterPayload} from '../../shared/types/filter-payload-type/filter-payload-interface';
 
