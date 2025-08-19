@@ -1,0 +1,33 @@
+.page-content section:nth-of-type(even) h2 {
+  text-align: right;
+  padding-right: 0;
+}
+
+#hero{
+  : 300px;
+  width: 100%;
+  margin-bottom: 80px;
+}
+
+#hero-image-wrap{
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+#hero-image{
+  aspect-ratio: 21/9;
+  max-height: 700px;
+  object-fit: cover;
+  width: 100%;
+  height: auto;
+  object-position: 50% 80%;
+}
+
+#hero-text{
+  position: absolute;
+  top: 20%;
+  left: 42.5%;
+
+}

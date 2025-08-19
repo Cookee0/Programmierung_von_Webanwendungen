@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import {Co2TableComponent} from '../../components/co2-table-component/co2-table-component';
 
+
 @Component({
   selector: 'app-footprints-companies-page',
   imports: [Co2TableComponent],
@@ -8,5 +9,9 @@ import {Co2TableComponent} from '../../components/co2-table-component/co2-table-
   styleUrl: './footprints-companies-page.css'
 })
 export class FootprintsCompaniesPage {
-
+  // constructor(private router: Router) {
+  // }
+  //
+  // // @ts-ignore
+  // currentRoute = this.router.url
 }

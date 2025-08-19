@@ -1,7 +1,19 @@
+/*
+START GLOBAL CSS
+ */
+
 :root{
-  --text-color: white;
+  --text-color: #eeeeee;
   --color-primary: #080836FF;
-  --color-secondary: #5353e3;
+  --color-primary-light: rgba(8, 8, 54, 0.5);
+  --color-secondary: #3737e0;
+  --font-size-base: 16px;
+  --font-size-h1: 3.815rem;
+  --font-size-h2: 3.052rem;
+  --font-size-h3: 2.441rem;
+  --font-size-h1-mobile: 2.986rem;
+  --font-size-h2-mobile: 2.488rem;
+  --font-size-h3-mobile: 2.074rem;
 }
 
 #root{
@@ -9,18 +21,76 @@
   flex-direction: column;
 }
 
+html{
+  scroll-behavior: smooth;
+}
+
 body {
-  font-family: Arial, Helvetica, sans-serif;
-  background: #080836FF;
+  margin: 0;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+  background-color: var(--color-primary);
   color: var(--text-color);
+  font-weight: 400;
+  font-size: var(--font-size-base);
+  word-break: auto-phrase;
 }
 
-main{
-  margin: 0 30% 0 20%;
+h1,h2,h3,h4,h5,h6{
+  margin: 30px 0 0;
 }
 
-html, body { height: 100%; }
-body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+h1{
+  font-size: var(--font-size-h1);
+  @media screen and (max-width: 767px){
+    font-size: var(--font-size-h1-mobile);
+  }
+}
+
+h2{
+  font-size: var(--font-size-h2);
+  @media screen and (max-width: 767px){
+    font-size: var(--font-size-h2-mobile);
+  }
+}
+
+h3{
+  font-size: var(--font-size-h3);
+  @media screen and (max-width: 767px){
+    font-size: var(--font-size-h3-mobile);
+  }
+}
+
+p{
+  line-height: 1.5em;
+}
+
+.content-wrapper{
+  display: flex;
+  flex-direction: row-reverse;
+  gap: 80px;
+  padding: 0 20% 0 20%
+}
+
+.page-content{
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.page-content > * {
+  gap: 40px;
+}
+
+.sidebar-wrap {
+  width: 30%;
+}
+
+
+
+/*
+START TABLE CSS
+ */
 
 #searchFormPaginator .mat-mdc-select-trigger{
   padding: 0 10px;
@@ -36,4 +106,52 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
 
 tbody tr:nth-child(odd){
   background-color: var(--color-secondary)
+}
+
+mat-option:hover{
+  background-color: var(--color-primary-light)!important;
+  transition: 0.2s ease;
+}
+
+thead{
+  background-color: var(--color-primary)!important;
+  position: sticky;
+  top: 0;
+  z-index: 99;
+}
+
+
+/*
+Start Sidebar CSS
+ */
+.sidebar-wrap{
+  margin-top: 30px;
+}
+
+.sidebar{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: auto;
+  background-color: var(--color-secondary);
+  color: var(--text-color);
+  position: sticky;
+  top: 30px;
+}
+
+.sidebar-anchor{
+  text-decoration: none;
+  color: var(--text-color);
+  width: 100%;
+  padding: 25px 0;
+  text-align: center;
+}
+
+.sidebar-anchor:not(#sidebar-anchor-last){
+  border-bottom: 1px solid var(--color-primary)
+}
+
+.sidebar-anchor:hover{
+  background-color: var(--color-primary-light);
+  transition: 0.2s ease;
 }

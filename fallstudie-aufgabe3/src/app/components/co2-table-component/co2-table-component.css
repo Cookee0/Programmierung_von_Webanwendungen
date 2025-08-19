@@ -1,18 +1,19 @@
-#companiesTable{
+#companies-table{
   width: 100%;
   table-layout: fixed;
-  gap: 20px;
-  border: 1px solid red;
+  border: 1px solid var(--color-secondary);
 }
 
-#companiesTable tr,th,td{
+#companies-table tr,th,td{
   color: var(--text-color);
 }
 
-#companiesTable th{
+#companies-table th{
   width: 30%;
 }
 
-#companiesTable #yearHeader{
+#companies-table #yearHeader{
   width: 10%;
 }
+
+

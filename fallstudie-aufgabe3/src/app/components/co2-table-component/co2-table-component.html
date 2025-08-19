@@ -3,8 +3,7 @@
   (filterChange)="applyFilter($event)"
 />
 
-
-<table [dataSource]="dataSource" mat-table matSort id="companiesTable">
+<table [dataSource]="dataSource" mat-table matSort id="companies-table">
 
   <ng-container matColumnDef="year" >
     <th *matHeaderCellDef mat-header-cell mat-sort-header sortActionDescription="Nach Jahr sortieren" id="yearHeader">Year</th>
