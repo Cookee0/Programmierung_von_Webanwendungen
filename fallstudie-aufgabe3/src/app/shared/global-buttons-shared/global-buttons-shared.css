@@ -11,4 +11,11 @@
   color: #eeeeee;
   transition: 0.2s;
   cursor: pointer;
+
+}
+
+@media screen and (max-width: 500px) {
+  .global-btn{
+    margin-left: 0;
+  }
 }

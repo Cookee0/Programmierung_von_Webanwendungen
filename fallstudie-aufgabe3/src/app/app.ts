@@ -11,6 +11,6 @@ import {FooterComponent} from './components/footer-component/footer-component';
 })
 
 export class App {
-  protected readonly title = signal('fallstudie-aufgabe3');
+  protected readonly title = signal('fallstudie');
 }
 

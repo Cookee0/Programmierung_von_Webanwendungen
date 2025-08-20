@@ -1,15 +1,15 @@
-.page-content section:nth-of-type(even) h2 {
-  text-align: right;
-  padding-right: 0;
-}
-
 #hero{
-  : 300px;
+  position: relative;
   width: 100%;
   margin-bottom: 80px;
 }
 
-#hero-image-wrap{
+#hero-content {
+  width: 100%;
+  max-height: 700px
+}
+
+#hero-image-wrap {
   width: 90%;
   display: flex;
   justify-content: center;
@@ -23,11 +23,83 @@
   width: 100%;
   height: auto;
   object-position: 50% 80%;
+  filter: brightness(0.9);
+}
+
+#hero-content-text{
+  position: absolute;
+  top: 20%;
+  left: 0;
+  right: 0;
+  margin-inline: auto;
+  width: fit-content;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+  height: 350px;
 }
 
 #hero-text{
-  position: absolute;
-  top: 20%;
-  left: 42.5%;
+  text-align: center;
+  text-shadow: 2px 2px 10px rgba(0,0,0);
+}
+
+#to-content-button{
+  margin: 0;
+  padding: 20px 65px;
+  font-size: 20px;
+  background-color: var(--color-secondary);
+}
+
+#to-content-button:hover{
+  background-color: var(--color-primary-light);
+}
+
+.content-image{
+  width: 100%;
+  max-height: 400px;
+  aspect-ratio: initial;
+  object-fit: cover;
+}
+
+@media screen and (max-width: 1024px){
+  #hero-content-text{
+    top: 0;
+    gap: 25px;
+  }
+
+  #hero-text{
+    margin-top: 0;
+  }
+
+  #to-content-button{
+    display: none;
+  }
+}
+
+@media screen and (max-width: 768px){
+  #hero-content-text{
+    top: 0;
+    gap: 25px;
+  }
+
+  #hero-text{
+    margin-top: 0;
+  }
+
+}
+
+@media screen and (max-width: 500px){
+
+  #hero{
+    position: static;
+  }
+
+  #hero-content-text{
+    height: 150px;
+    top: 12.5%;
+  }
 
 }

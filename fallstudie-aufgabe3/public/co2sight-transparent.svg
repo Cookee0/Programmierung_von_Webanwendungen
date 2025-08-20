@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="686" viewBox="0 0 1600 686" role="img">
+<title>Logo</title>
+
+
+  <g transform="translate(230,210)">
+    <ellipse cx="0" cy="0" rx="160" ry="90" fill="none" stroke="#080836" stroke-width="14"/>
+    <circle cx="0" cy="0" r="38" fill="#0FAD8F"/>
+    <circle cx="120" cy="-70" r="8" fill="#0FAD8F"/>
+    <path d="M 20 -94 A 140 140 0 0 1 140 -10" fill="none" stroke="#0FAD8F" stroke-width="3" stroke-dasharray="6 6"/>
+  </g>
+  <text x="470" y="300" fill="#080836" font-size="80" font-family="system-ui,Segoe UI,Roboto,Helvetica,Arial,sans-serif">CO₂Sight</text>
+  <text x="470" y="360" fill="#0FAD8F" font-size="30" font-family="system-ui,Segoe UI,Roboto,Helvetica,Arial,sans-serif">See emissions clearly</text>
+
+</svg>

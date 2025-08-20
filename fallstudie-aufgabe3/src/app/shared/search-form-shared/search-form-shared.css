@@ -24,3 +24,13 @@
 }
 
 
+@media screen and (max-width: 500px){
+  #searchFormFilters{
+    flex-direction: column;
+    width: 100%;
+  }
+
+  #searchForm{
+    margin-bottom: 40px;
+  }
+}

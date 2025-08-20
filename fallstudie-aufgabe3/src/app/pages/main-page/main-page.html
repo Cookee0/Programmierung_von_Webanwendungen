@@ -1,9 +1,12 @@
-<div id="hero">
+<div id="hero" xmlns="http://www.w3.org/1999/html">
   <div id="hero-content">
     <div id="hero-image-wrap">
-      <img id="hero-image" src="https://images.pexels.com/photos/3855962/pexels-photo-3855962.jpeg">
+      <img id="hero-image" ngSrc="/hero-img.webp" height="1427" width="2140">
     </div>
-    <h1 id="hero-text">Main Page</h1>
+    <div id="hero-content-text">
+      <h1 id="hero-text">CO<sub>2</sub>Sight</h1>
+      <a class="global-btn" href="#about" id="to-content-button">Zur Seite</a>
+    </div>
   </div>
 </div>
 
@@ -11,9 +14,9 @@
 
   <div class="sidebar-wrap">
     <div class="sidebar">
-      <a class="sidebar-anchor" href="#1">1</a>
-      <a class="sidebar-anchor" href="#2">2</a>
-      <a class="sidebar-anchor" href="#3" id="sidebar-anchor-last">3</a>
+      <a class="sidebar-anchor" href="#about">About the Website</a>
+      <a class="sidebar-anchor" href="#why">Why does this matter?</a>
+      <a class="sidebar-anchor" href="#what" id="sidebar-anchor-last">What can I do?</a>
     </div>
   </div>
 
@@ -21,7 +24,7 @@
 
     <section>
 
-      <h2 id="1">What this page does</h2>
+      <h2 id="about">What this page does</h2>
 
       <p>
         This page gives you a clear, honest view of the companies that produced the most CO₂ over the last five years.
@@ -30,6 +33,10 @@
       <p>
         The table aggregates their reported emissions and lets you sort, search, and filter by year, company, and
         country so you can quickly spot patterns and outliers.
+      </p>
+
+      <p>
+        To access the table, click on <a href="/companies"><strong>Companies</strong></a> at the top of the page.
       </p>
 
       <p>It is designed for both quick scans and deeper dives:
@@ -41,11 +48,13 @@
         investors, and professionals to discuss emissions with a shared set of facts and make better choices.
       </p>
 
+      <img class="content-image" ngSrc="/jakub-zerdzicki-EL16ACtwLxg-unsplash.webp" width="2140" height="1204">
+
     </section>
 
     <section>
 
-      <h2 id="2">Why protecting the environment matters to you</h2>
+      <h2 id="why">Why protecting the environment matters to you</h2>
 
       <p>
         Climate impacts are not distant or abstract—they shape daily life and pocketbooks. Rising temperatures and
@@ -67,11 +76,13 @@
         efficiency and innovation.</strong>
       </p>
 
+      <img class="content-image" ngSrc="/david-kristianto-TKOGcu56X-U-unsplash.webp" width="2140" height="1204">
+
     </section>
 
     <section>
 
-      <h2 id="3">What you can do to make a difference</h2>
+      <h2 id="what">What you can do to make a difference</h2>
 
       <p>
         Use the table to identify leaders and laggards, then act where you have influence.
@@ -98,6 +109,7 @@
         responsible leadership across entire industries.
       </p>
 
+      <img class="content-image" ngSrc="/ramon-bucard-WBUQSTbEV_c-unsplash.webp" width="2140" height="1427">
 
     </section>
   </div>

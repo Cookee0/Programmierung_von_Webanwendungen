@@ -16,4 +16,15 @@
   width: 10%;
 }
 
+@media screen and (orientation:landscape){
+  #companies-table th{
+    width: 25%;
+  }
+}
+
+@media screen and (max-width:1024px){
+  #companies-table th{
+    width: 25%;
+  }
+}
 

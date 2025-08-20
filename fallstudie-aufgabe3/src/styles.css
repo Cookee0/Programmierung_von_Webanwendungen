@@ -7,6 +7,7 @@ START GLOBAL CSS
   --color-primary: #080836FF;
   --color-primary-light: rgba(8, 8, 54, 0.5);
   --color-secondary: #3737e0;
+  --link-color: #E0E037;
   --font-size-base: 16px;
   --font-size-h1: 3.815rem;
   --font-size-h2: 3.052rem;
@@ -32,7 +33,22 @@ body {
   color: var(--text-color);
   font-weight: 400;
   font-size: var(--font-size-base);
-  word-break: auto-phrase;
+  word-break: break-word;
+}
+
+a{
+  text-decoration: none;
+  color: var(--text-color);
+}
+
+p a{
+  text-decoration: none;
+  color: var(--link-color);
+}
+
+p a:hover{
+  text-decoration: underline;
+  transition: 0.2s;
 }
 
 h1,h2,h3,h4,h5,h6{
@@ -86,6 +102,65 @@ p{
   width: 30%;
 }
 
+.global-btn{
+  margin-left: 25px;
+  text-decoration: none;
+  border: 1px solid #afafaf;
+  border-radius: 5px;
+  padding: 10px 20px;
+}
+
+.global-btn:hover{
+  background-color: var(--color-secondary);
+  color: var(--text-color);
+  transition: 0.2s;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 1024px){
+
+  .content-wrapper{
+    padding: 0 5% 0 5%
+  }
+
+}
+
+@media screen and (max-width: 1024px) and (orientation: landscape){
+  .content-wrapper{
+    flex-direction: column;
+    gap: 50px;
+  }
+
+  .sidebar-wrap{
+    margin: 0;
+  }
+
+  .sidebar{
+    width: 100%;
+    min-width: 90vw;
+  }
+
+  .sidebar-anchor{
+    width: 100%;
+  }
+
+  .page-content{
+    width: 100%;
+  }
+
+}
+
+@media screen and (max-width: 768px){
+  .content-wrapper{
+    flex-direction: column;
+    gap: 50px;
+  }
+
+  .page-content{
+    width: 100%;
+  }
+
+}
 
 
 /*
@@ -154,4 +229,29 @@ Start Sidebar CSS
 .sidebar-anchor:hover{
   background-color: var(--color-primary-light);
   transition: 0.2s ease;
+}
+
+@media screen and (max-width: 768px){
+  .sidebar-wrap{
+    margin: 0;
+  }
+
+  .sidebar{
+    width: 100%;
+    min-width: 90vw;
+  }
+
+  .sidebar-anchor{
+    width: 100%;
+  }
+}
+
+#mobile-hinweis {
+  display: none;
+}
+
+@media screen and (max-width: 500px){
+  #mobile-hinweis{
+    display: block;
+  }
 }

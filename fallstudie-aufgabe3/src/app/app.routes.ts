@@ -19,28 +19,22 @@ export const routes: Routes = [
     },
   },
 
-/*  {
+ {
     path: 'impressum',
     loadComponent:  async() =>{
-      const m = await import('./pages/impressum/impressum');
+      const m = await import('./pages/impressum-page/impressum-page');
       return m.ImpressumPage;
     }
   },
 
   {
-    path: 'datenschutz',
+    path: 'quellenhinweis',
     loadComponent:  async() =>{
-      const m = await import('./pages/datenschutz/datenschutz');
-      return m.datenschutzPage;
+      const m = await import('./pages/quellenhinweis-page/quellenhinweis-page');
+      return m.QuellenhinweisPage;
     }
   },
 
-  {
-    path: 'agb',
-    loadComponent:  async() =>{
-      const m = await import('./pages/agb/agb');
-      return m.agbPage;
-    }
-  },*/
+
 
 ];
