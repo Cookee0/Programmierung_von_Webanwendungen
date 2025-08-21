@@ -13,17 +13,17 @@
   </ng-container>
 
   <ng-container matColumnDef="parent_entity">
-    <th *matHeaderCellDef mat-header-cell mat-sort-header>Unternehmen</th>
+    <th *matHeaderCellDef mat-header-cell mat-sort-header>Company</th>
     <td *matCellDef="let row" mat-cell>{{ row.parent_entity }}</td>
   </ng-container>
 
   <ng-container matColumnDef="country">
-    <th *matHeaderCellDef mat-header-cell mat-sort-header>Land</th>
+    <th *matHeaderCellDef mat-header-cell mat-sort-header>Country</th>
     <td *matCellDef="let row" mat-cell>{{ row.country }}</td>
   </ng-container>
 
   <ng-container matColumnDef="total_emissions_MtCO2e">
-    <th *matHeaderCellDef mat-header-cell mat-sort-header>Emissionen in Mt/Jahr</th>
+    <th *matHeaderCellDef mat-header-cell mat-sort-header>Emissions in Mt/year</th>
     <td *matCellDef="let row" mat-cell>
       {{ row.total_emissions_MtCO2e | number:'1.0-7' }}
     </td>
