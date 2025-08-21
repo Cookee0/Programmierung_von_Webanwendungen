@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import {Component} from '@angular/core';
 import {Co2TableComponent} from '../../components/co2-table-component/co2-table-component';
 
 

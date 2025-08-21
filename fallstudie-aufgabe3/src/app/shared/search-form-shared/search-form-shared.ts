@@ -26,14 +26,14 @@ import {Company} from '../types/company-type/company-interface';
 
 export class SearchFormShared {
 
-  @Input ({required: true}) dataSource!: MatTableDataSource<Company>;
+  @Input({required: true}) dataSource!: MatTableDataSource<Company>;
   @ViewChild(MatPaginator) paginator!: MatPaginator;
 
   filterChange = output<FilterPayload>();
 
-  countryCtrl = new FormControl('', { nonNullable: true });
-  companyCtrl = new FormControl('', { nonNullable: true });
-  yearsCtrl   = new FormControl<(number|null)[] | null>(null);
+  countryCtrl = new FormControl('', {nonNullable: true});
+  companyCtrl = new FormControl('', {nonNullable: true});
+  yearsCtrl = new FormControl<(number | null)[] | null>(null);
 
   yearsList = [2019, 2020, 2021, 2022, 2023];
 
@@ -52,8 +52,8 @@ export class SearchFormShared {
   }
 
   onYearsSelectionChange(e: MatSelectChange) {
-    const v = e.value as (number|null)[] | null;
-    if (Array.isArray(v) && v.includes(null)) this.yearsCtrl.setValue(null, { emitEvent: true });
+    const v = e.value as (number | null)[] | null;
+    if (Array.isArray(v) && v.includes(null)) this.yearsCtrl.setValue(null, {emitEvent: true});
   }
 
   private emit() {

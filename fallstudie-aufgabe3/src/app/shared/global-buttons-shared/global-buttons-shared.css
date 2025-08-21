@@ -1,4 +1,4 @@
-.global-btn{
+.global-btn {
   margin-left: 25px;
   text-decoration: none;
   border: 1px solid #afafaf;
@@ -6,7 +6,7 @@
   padding: 10px 20px;
 }
 
-.global-btn:hover{
+.global-btn:hover {
   background-color: var(--color-secondary);
   color: #eeeeee;
   transition: 0.2s;
@@ -15,7 +15,7 @@
 }
 
 @media screen and (max-width: 500px) {
-  .global-btn{
+  .global-btn {
     margin-left: 0;
   }
 }

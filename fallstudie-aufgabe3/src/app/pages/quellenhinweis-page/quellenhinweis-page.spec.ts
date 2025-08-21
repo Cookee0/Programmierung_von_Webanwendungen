@@ -1,6 +1,6 @@
-import { ComponentFixture, TestBed } from '@angular/core/testing';
+import {ComponentFixture, TestBed} from '@angular/core/testing';
 
-import { QuellenhinweisPage } from './quellenhinweis-page';
+import {QuellenhinweisPage} from './quellenhinweis-page';
 
 describe('QuellenhinweisPage', () => {
   let component: QuellenhinweisPage;
@@ -10,7 +10,7 @@ describe('QuellenhinweisPage', () => {
     await TestBed.configureTestingModule({
       imports: [QuellenhinweisPage]
     })
-    .compileComponents();
+      .compileComponents();
 
     fixture = TestBed.createComponent(QuellenhinweisPage);
     component = fixture.componentInstance;

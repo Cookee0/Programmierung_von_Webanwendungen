@@ -1,39 +1,39 @@
 <form id="searchForm">
 
   <div id="searchFormFilters">
-  <mat-form-field>
-    <mat-label>Filter by Country</mat-label>
+    <mat-form-field>
+      <mat-label>Filter by Country</mat-label>
 
-    <input
-      matInput
-      placeholder="USA, Deutschland..."
-      [formControl]="countryCtrl"
-    />
-  </mat-form-field>
+      <input
+        matInput
+        placeholder="USA, Deutschland..."
+        [formControl]="countryCtrl"
+      />
+    </mat-form-field>
 
-  <mat-form-field>
-    <mat-label>Filter by Company</mat-label>
+    <mat-form-field>
+      <mat-label>Filter by Company</mat-label>
 
-    <input
-      matInput
-      placeholder="Adani, BASF..."
-      [formControl]="companyCtrl"
-    />
-  </mat-form-field>
+      <input
+        matInput
+        placeholder="Adani, BASF..."
+        [formControl]="companyCtrl"
+      />
+    </mat-form-field>
 
-  <mat-form-field>
-    <mat-select
-      multiple
-      [formControl]="yearsCtrl"
-      [placeholder]="'Filter by Year'"
-    >
+    <mat-form-field>
+      <mat-select
+        multiple
+        [formControl]="yearsCtrl"
+        [placeholder]="'Filter by Year'"
+      >
 
-      @for (year of yearsList; track year) {
-        <mat-option [value]="year">{{ year }}</mat-option>
-      }
+        @for (year of yearsList; track year) {
+          <mat-option [value]="year">{{ year }}</mat-option>
+        }
 
-    </mat-select>
-  </mat-form-field>
+      </mat-select>
+    </mat-form-field>
   </div>
 
   <mat-paginator

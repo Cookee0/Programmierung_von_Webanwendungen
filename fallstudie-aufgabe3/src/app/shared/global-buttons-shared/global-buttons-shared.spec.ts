@@ -1,6 +1,6 @@
-import { ComponentFixture, TestBed } from '@angular/core/testing';
+import {ComponentFixture, TestBed} from '@angular/core/testing';
 
-import { GlobalButtonsShared } from './global-buttons-shared';
+import {GlobalButtonsShared} from './global-buttons-shared';
 
 describe('GlobalButtonsShared', () => {
   let component: GlobalButtonsShared;
@@ -10,7 +10,7 @@ describe('GlobalButtonsShared', () => {
     await TestBed.configureTestingModule({
       imports: [GlobalButtonsShared]
     })
-    .compileComponents();
+      .compileComponents();
 
     fixture = TestBed.createComponent(GlobalButtonsShared);
     component = fixture.componentInstance;

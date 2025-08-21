@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import {Component} from '@angular/core';
 import {GlobalButtonsShared} from '../../shared/global-buttons-shared/global-buttons-shared';
 import {RouterLink} from '@angular/router';
 

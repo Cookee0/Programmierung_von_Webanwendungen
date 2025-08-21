@@ -34,15 +34,20 @@ export class Co2TableComponent {
 
   constructor() {
     // push rows into table
-    effect(() => { this.dataSource.data = this.svc.data(); });
+    effect(() => {
+      this.dataSource.data = this.svc.data();
+    });
 
     // one predicate that understands all filters
     this.dataSource.filterPredicate = (row, filterStr) => {
-      let f: FilterPayload = { country: '', company: '', years: null };
-      try { f = JSON.parse(filterStr) as FilterPayload; } catch {}
+      let f: FilterPayload = {country: '', company: '', years: null};
+      try {
+        f = JSON.parse(filterStr) as FilterPayload;
+      } catch {
+      }
       const countryOk = !f.country || (row.country ?? '').toLowerCase().includes(f.country);
       const companyOk = !f.company || (row.parent_entity ?? '').toLowerCase().includes(f.company);
-      const yearsOk   = !f.years || f.years.length === 0 || f.years.includes(row.year);
+      const yearsOk = !f.years || f.years.length === 0 || f.years.includes(row.year);
       return countryOk && companyOk && yearsOk;
     };
   }

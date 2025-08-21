@@ -1,6 +1,6 @@
-import { TestBed } from '@angular/core/testing';
+import {TestBed} from '@angular/core/testing';
 
-import { Co2TableService } from './co2-table-service';
+import {Co2TableService} from './co2-table-service';
 
 describe('Co2TableService', () => {
   let service: Co2TableService;

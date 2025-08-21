@@ -1,11 +1,11 @@
-header{
-  height:auto;
-  width:100%;
+header {
+  height: auto;
+  width: 100%;
   padding: 20px 0;
 }
 
-header nav{
-  display:flex;
+header nav {
+  display: flex;
   flex-direction: row;
   justify-content: space-between;
   width: 90%;
@@ -13,13 +13,13 @@ header nav{
   align-items: center;
 }
 
-#logo{
+#logo {
   height: 125px;
   width: auto;
 }
 
-@media screen and (max-width: 500px){
-  #logo{
+@media screen and (max-width: 500px) {
+  #logo {
     height: 75px;
   }
 }

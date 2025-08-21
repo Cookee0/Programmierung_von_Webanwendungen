@@ -1,5 +1,4 @@
 import {Routes} from '@angular/router';
-import {provideHttpClient} from '@angular/common/http';
 
 export const routes: Routes = [
   {
@@ -19,9 +18,9 @@ export const routes: Routes = [
     },
   },
 
- {
+  {
     path: 'impressum',
-    loadComponent:  async() =>{
+    loadComponent: async () => {
       const m = await import('./pages/impressum-page/impressum-page');
       return m.ImpressumPage;
     }
@@ -29,12 +28,11 @@ export const routes: Routes = [
 
   {
     path: 'quellenhinweis',
-    loadComponent:  async() =>{
+    loadComponent: async () => {
       const m = await import('./pages/quellenhinweis-page/quellenhinweis-page');
       return m.QuellenhinweisPage;
     }
   },
-
 
 
 ];

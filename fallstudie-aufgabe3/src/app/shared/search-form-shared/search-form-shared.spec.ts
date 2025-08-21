@@ -1,6 +1,6 @@
-import { ComponentFixture, TestBed } from '@angular/core/testing';
+import {ComponentFixture, TestBed} from '@angular/core/testing';
 
-import { SearchFormShared } from './search-form-shared';
+import {SearchFormShared} from './search-form-shared';
 
 describe('SearchFormShared', () => {
   let component: SearchFormShared;
@@ -10,7 +10,7 @@ describe('SearchFormShared', () => {
     await TestBed.configureTestingModule({
       imports: [SearchFormShared]
     })
-    .compileComponents();
+      .compileComponents();
 
     fixture = TestBed.createComponent(SearchFormShared);
     component = fixture.componentInstance;

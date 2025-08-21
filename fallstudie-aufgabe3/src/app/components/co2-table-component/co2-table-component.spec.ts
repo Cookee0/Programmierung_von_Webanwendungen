@@ -1,6 +1,6 @@
-import { ComponentFixture, TestBed } from '@angular/core/testing';
+import {ComponentFixture, TestBed} from '@angular/core/testing';
 
-import { Co2TableComponent } from './co2-table-component';
+import {Co2TableComponent} from './co2-table-component';
 
 describe('Co2TableComponent', () => {
   let component: Co2TableComponent;
@@ -10,7 +10,7 @@ describe('Co2TableComponent', () => {
     await TestBed.configureTestingModule({
       imports: [Co2TableComponent]
     })
-    .compileComponents();
+      .compileComponents();
 
     fixture = TestBed.createComponent(Co2TableComponent);
     component = fixture.componentInstance;
