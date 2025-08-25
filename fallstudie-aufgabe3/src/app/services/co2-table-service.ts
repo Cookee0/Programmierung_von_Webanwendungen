@@ -8,7 +8,6 @@ import {Company} from '../shared/types/company-type/company-interface';
   providedIn: 'any'
 })
 export class Co2TableService {
-  // cumshot(message: string) {console.log(message);}
 
   private http = inject(HttpClient);
 

@@ -5,22 +5,22 @@
     </div>
     <div id="hero-content-text">
       <h1 id="hero-text">CO<sub>2</sub>Sight</h1>
-      <a class="global-btn" href="#about" id="to-content-button">To content</a>
+      <a [class]="'global-btn'" [href]="'#about'" id="to-content-button">To content</a>
     </div>
   </div>
 </div>
 
-<div class="content-wrapper" dir="" id="mainpage">
+<div [class]="'content-wrapper'" id="mainpage">
 
-  <div class="sidebar-wrap">
-    <div class="sidebar">
-      <a class="sidebar-anchor" href="#about">About the Website</a>
-      <a class="sidebar-anchor" href="#why">Why does this matter?</a>
-      <a class="sidebar-anchor" href="#what" id="sidebar-anchor-last">What can I do?</a>
+  <div [class]="'sidebar-wrap'">
+    <div [class]="'sidebar'">
+      <a [class]="'sidebar-anchor'" [href]="'#about'">About the Website</a>
+      <a [class]="'sidebar-anchor'" [href]="'#why'">Why does this matter?</a>
+      <a [class]="'sidebar-anchor'" [href]="'#what'" id="sidebar-anchor-last">What can I do?</a>
     </div>
   </div>
 
-  <div class="page-content">
+  <div [class]="'page-content'">
 
     <section>
 
@@ -36,7 +36,7 @@
       </p>
 
       <p>
-        To access the table, click on <a href="/companies"><strong>Companies</strong></a> at the top of the page.
+        To access the table, click on <a [href]="'/companies'"><strong>Companies</strong></a> at the top of the page.
       </p>
 
       <p>It is designed for both quick scans and deeper dives:
@@ -48,7 +48,7 @@
         investors, and professionals to discuss emissions with a shared set of facts and make better choices.
       </p>
 
-      <img class="content-image" ngSrc="/jakub-zerdzicki-EL16ACtwLxg-unsplash.webp" width="2140" height="1204">
+      <img [class]="'content-image'" ngSrc="/jakub-zerdzicki-EL16ACtwLxg-unsplash.webp" width="2140" height="1204">
 
     </section>
 
@@ -76,7 +76,7 @@
         efficiency and innovation.</strong>
       </p>
 
-      <img class="content-image" ngSrc="/david-kristianto-TKOGcu56X-U-unsplash.webp" width="2140" height="1204">
+      <img [class]="'content-image'" ngSrc="/david-kristianto-TKOGcu56X-U-unsplash.webp" width="2140" height="1204">
 
     </section>
 
@@ -109,7 +109,7 @@
         responsible leadership across entire industries.
       </p>
 
-      <img class="content-image" ngSrc="/ramon-bucard-WBUQSTbEV_c-unsplash.webp" width="2140" height="1427">
+      <img [class]="'content-image'" ngSrc="/ramon-bucard-WBUQSTbEV_c-unsplash.webp" width="2140" height="1427">
 
     </section>
   </div>

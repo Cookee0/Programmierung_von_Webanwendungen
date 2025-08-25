@@ -1,12 +1,12 @@
-<div class="content-wrapper" id="companies-content">
+<div [class]="'content-wrapper'" id="companies-content">
 
-  <div class="sidebar-wrap">
-    <div class="sidebar">
-      <a class="sidebar-anchor" href="/companies#companies-table">To the table</a>
+  <div [class]="'sidebar-wrap'">
+    <div [class]="'sidebar'">
+      <a [class]="'sidebar-anchor'" [href]="'/companies#companies-table'">To the table</a>
     </div>
   </div>
 
-  <div class="page-content">
+  <div [class]="'page-content'">
 
     <h1>CO<sub>2</sub> emissions by company</h1>
     <app-co2-table-component id="co2-table-component"/>
