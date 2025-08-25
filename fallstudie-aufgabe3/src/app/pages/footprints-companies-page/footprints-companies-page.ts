@@ -9,9 +9,5 @@ import {Co2TableComponent} from '../../components/co2-table-component/co2-table-
   styleUrl: './footprints-companies-page.css'
 })
 export class FootprintsCompaniesPage {
-  // constructor(private router: Router) {
-  // }
-  //
-  // // @ts-ignore
-  // currentRoute = this.router.url
+
 }
