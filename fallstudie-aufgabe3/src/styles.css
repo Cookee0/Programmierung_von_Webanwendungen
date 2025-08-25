@@ -83,12 +83,12 @@ p {
 .content-wrapper {
   display: flex;
   flex-direction: row-reverse;
-  gap: 80px;
+  gap: 50px;
   padding: 0 20% 0 20%
 }
 
 .page-content {
-  width: 70%;
+  width: 75%;
   display: flex;
   flex-direction: column;
   gap: 40px;
@@ -193,6 +193,10 @@ thead {
   position: sticky;
   top: 0;
   z-index: 99;
+}
+
+#companies-table *:not(.mdc-data-table__cell){
+  word-break: keep-all;
 }
 
 
