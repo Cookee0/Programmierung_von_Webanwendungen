@@ -1,5 +1,5 @@
 import {Component, Input, output, ViewChild} from '@angular/core';
-import {FormControl, FormsModule, ReactiveFormsModule} from "@angular/forms";
+import {FormControl, ReactiveFormsModule} from "@angular/forms";
 import {MatFormField, MatInput, MatLabel} from "@angular/material/input";
 import {MatOption, MatSelect, MatSelectChange} from '@angular/material/select';
 import {merge, startWith} from 'rxjs';
@@ -11,7 +11,6 @@ import {Company} from '../types/company-type/company-interface';
 @Component({
   selector: 'app-search-form-shared',
   imports: [
-    FormsModule,
     MatFormField,
     MatInput,
     MatLabel,
@@ -26,6 +25,8 @@ import {Company} from '../types/company-type/company-interface';
 
 export class SearchFormShared {
 
+  yearsList = [2019, 2020, 2021, 2022, 2023];
+
   @Input({required: true}) dataSource!: MatTableDataSource<Company>;
   @ViewChild(MatPaginator) paginator!: MatPaginator;
 
@@ -34,10 +35,6 @@ export class SearchFormShared {
   countryCtrl = new FormControl('', {nonNullable: true});
   companyCtrl = new FormControl('', {nonNullable: true});
   yearsCtrl = new FormControl<(number | null)[] | null>(null);
-
-  yearsList = [2019, 2020, 2021, 2022, 2023];
-
-  paginatorReady = output<MatPaginator>();
 
   ngAfterViewInit() {
     this.dataSource.paginator = this.paginator;
@@ -48,7 +45,9 @@ export class SearchFormShared {
       this.countryCtrl.valueChanges,
       this.companyCtrl.valueChanges,
       this.yearsCtrl.valueChanges
-    ).pipe(startWith(null)).subscribe(() => this.emit());
+    )
+      .pipe(startWith(null))
+      .subscribe(() => this.emit());
   }
 
   onYearsSelectionChange(e: MatSelectChange) {
@@ -59,11 +58,14 @@ export class SearchFormShared {
   private emit() {
     const sel = this.yearsCtrl.value;
     const years = !sel || sel.includes(null) ? null : (sel as number[]);
+
     const payload: FilterPayload = {
       country: this.countryCtrl.value.trim().toLowerCase(),
       company: this.companyCtrl.value.trim().toLowerCase(),
       years,
     };
+
     this.filterChange.emit(payload);
+
   }
 }

@@ -8,7 +8,7 @@
 <table [dataSource]="dataSource" mat-table matSort id="companies-table">
 
   <ng-container matColumnDef="year">
-    <th *matHeaderCellDef mat-header-cell mat-sort-header sortActionDescription="Nach Jahr sortieren" id="yearHeader">
+    <th *matHeaderCellDef mat-header-cell mat-sort-header id="yearHeader">
       Year
     </th>
     <td *matCellDef="let row" mat-cell>{{ row.year }}</td>
@@ -32,6 +32,6 @@
   </ng-container>
 
   <tr *matHeaderRowDef="displayedColumns" mat-header-row></tr>
-  <tr *matRowDef="let row; columns: displayedColumns" mat-row></tr>
+  <tr *matRowDef="let row columns: displayedColumns" mat-row></tr>
 
 </table>

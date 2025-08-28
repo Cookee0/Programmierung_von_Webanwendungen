@@ -8,7 +8,7 @@
 
 .global-btn:hover {
   background-color: var(--color-secondary);
-  color: #eeeeee;
+  color: var(--text-color);
   transition: 0.2s;
   cursor: pointer;
 

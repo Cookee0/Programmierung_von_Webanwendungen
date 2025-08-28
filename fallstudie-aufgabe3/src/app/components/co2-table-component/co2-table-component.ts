@@ -56,10 +56,6 @@ export class Co2TableComponent {
     this.dataSource.sort = this.sort;
   }
 
-  onPaginatorReady() {
-    this.dataSource.paginator = this.paginator;
-  }
-
   // called from child
   applyFilter(payload: FilterPayload) {
     this.dataSource.filter = JSON.stringify(payload); // <- triggers refilter

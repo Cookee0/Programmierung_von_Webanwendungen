@@ -30,10 +30,10 @@ function emissionsToNumber(value: unknown): number {
   if (typeof value === 'string') {
     const cleaned = value.replace(/\s/g, '').replace(',', '.');
     const n = Number(cleaned);
-    return Number.isFinite(n) ? n : NaN;
+    return Number(n);
   }
 
   const number = Number(value);
-  return Number.isFinite(number) ? number : NaN;
+  return Number(number);
 
 }
